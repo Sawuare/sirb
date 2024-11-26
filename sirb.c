@@ -64,8 +64,8 @@ int main(void) {
   fprintf(file,
     "<?xml version='1.0'?>\n"
     "<svg xmlns='http://www.w3.org/2000/svg' "
-    "viewBox='%g %g %g %g' width='256px' height='256px' fill='white'>\n"
-    "  <rect x='%g' y='%g' width='100%%' height='100%%' fill='black'/>\n",
+    "viewBox='%g %g %g %g' width='256px' height='256px' fill='black'>\n"
+    "  <rect x='%g' y='%g' width='100%%' height='100%%' fill='white'/>\n",
     -l, -l, 2 * l, 2 * l, -l, -l);
 
   int birds = 6;
